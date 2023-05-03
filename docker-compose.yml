@@ -5,7 +5,6 @@ services:
     build: .
     container_name: test-deploy-next
     restart: always
-    network_mode: host
     command:
       "npm run start"
     ports:

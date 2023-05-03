@@ -13,10 +13,11 @@ const Home = ({
 
 export async function getServerSideProps() {
   try {
-    const response = await axios.get('http://192.168.1.192:1337/api/title');
+    // const response = await axios.get('http://192.168.1.192:1337/api/title');
     return {
       props: {
-        title: response.data.data,
+        title: "Deploy test"
+        // title: response.data.data,
       }
     }
   } catch (e) {

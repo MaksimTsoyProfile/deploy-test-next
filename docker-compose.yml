@@ -8,4 +8,5 @@ services:
     network_mode: host
     command:
       "npm run start"
-
+    ports:
+      - "3000:3000"

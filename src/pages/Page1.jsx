@@ -5,8 +5,7 @@ const Page1 = ({
 }) => {
   return (
     <div style={{ fontSize: '36px', display: 'flex', justifyContent: 'center' }}>
-      {/*{title?.attributes?.title}*/}
-      {title}
+      {title?.attributes?.title}
       <div>
         Maksim Tsoy
       </div>
